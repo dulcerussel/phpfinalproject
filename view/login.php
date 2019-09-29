@@ -5,6 +5,7 @@
 	//if the user clicks the logout link in the main page
 	if(isset($_GET["flag"]) && $_GET["flag"] == "logout"){
 		//clear the session array variable
+		$_SESSION = array();
 		//destroy the session
 		session_destroy();
 		//unset all session
