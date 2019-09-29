@@ -61,7 +61,7 @@
 </head>
 <body>
 	<div class="container">
-	<img src="image/login.png"/>
+	<img src="images/person.png"/>
 		<form>
 			<div class="form-input">
 				<input type="text" name="text" placeholder="Enter the User Name"/>	
